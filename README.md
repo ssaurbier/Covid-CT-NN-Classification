@@ -1,2 +1,2 @@
 # Covid-CT-NN-Classification
-Classifying and predicting alzheimers / dementia with OASIS image datasets 
+Classifying and predicting covid with public imaging datasets 
