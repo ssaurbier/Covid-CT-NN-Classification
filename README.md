@@ -22,3 +22,4 @@ Model performance:
 Baseline models were limited to ~90% accuracy. Transfer learning yielded small gains, but augmentations (rotations, resizing, and normalization) yielded the strongest accuracy improvemnt (~7% vs. previous models). The most accurate model classified at ~97%, slightly below our SME threshold for specialist competency. 
 
 ![plot](./images/ConfusionMatrix.png)
+With the above confusion matrix and classfication report we can see that we're getting the majority of our misclassifications in the normal images. This makes sense as a normal would be the most vague class to classify, as covid and pneumonia youre looking for a certain object within the images
