@@ -8,8 +8,8 @@ Can we accurately classify an open-source set of ~20_000 CT scans across 4 label
 ## Executive Summary
 We approached this problem with an iterative nn modeling approach, beginning with a simple keras tf model, adding transfer learning, and finally including augmentations built into PyTorch. 
 
-## Data:
-
+## Data: 
+Data taken from the covid 19 radiography database kaggle. https://www.kaggle.com/datasets/tawsifurrahman/covid19-radiography-database/code
 [COVID-19_Radiography_Dataset.zip](https://www.kaggle.com/datasets/tawsifurrahman/covid19-radiography-database/code)
 
 Unzips to:  /COVID-19_Radiography_Dataset/{i}/masks
