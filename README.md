@@ -10,7 +10,7 @@ We approached this problem with an iterative nn modeling approach, beginning wit
 
 ## Data:
 
-[COVID-19_Radiography_Dataset.zip][https://www.kaggle.com/datasets/tawsifurrahman/covid19-radiography-database/code]
+[COVID-19_Radiography_Dataset.zip](https://www.kaggle.com/datasets/tawsifurrahman/covid19-radiography-database/code)
 
 Unzips to:  /COVID-19_Radiography_Dataset/{i}/masks
             /COVID-19_Radiography_Dataset/{i}/images
