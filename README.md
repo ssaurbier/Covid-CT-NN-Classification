@@ -16,6 +16,9 @@ Where {i} = [normal, covid, lung_opacity, viral_pneumonia]. Masks are removed to
 
 Model performance:
 
-![plot](./images/BaseModelLoss.png)
+![plot](./images/BaseModelAcc.png)
+![plot](./images/XceptionAcc.png)
 
 Baseline models were limited to ~90% accuracy. Transfer learning yielded small gains, but augmentations (rotations, resizing, and normalization) yielded the strongest accuracy improvemnt (~7% vs. previous models). The most accurate model classified at ~97%, slightly below our SME threshold for specialist competency. 
+
+![plot](./images/ConfusionMatrix.png)
