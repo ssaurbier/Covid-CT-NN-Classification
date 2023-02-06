@@ -27,3 +27,6 @@ Baseline models were limited to ~90% accuracy. Transfer learning yielded small g
 ![plot](./images/ConfusionMatrix.png). 
 
 With the above confusion matrix we can see that we're getting the majority of our misclassifications in the normal images. This makes sense as a normal would be the most vague class to classify, as covid and pneumonia youre looking for a certain object within the images
+
+![plot](./images/GradCamXception.png)
+One of the things we’ve implemented within our project to help with our understanding of our models was a technique called gradient camera.  Gradient cam  creates class activation maps that helps us visualize and interpret how our model looks at our data by taking the gradients of the last convolutional layer in the cnn and weighing them we can see how on each image our model is classifying them. 
