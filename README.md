@@ -11,7 +11,7 @@ We approached this problem with an iterative nn modeling approach, beginning wit
 ## Data: 
 Data taken from the covid 19 radiography database kaggle. https://www.kaggle.com/datasets/tawsifurrahman/covid19-radiography-database/code.  
 
-[COVID-19_Radiography_Dataset.zip](https://www.kaggle.com/datasets/tawsifurrahman/covid19-radiography-database/code)
+[COVID-19_Radiography_Dataset.zip](https://drive.google.com/drive/folders/1V6a4_YyqnwkhmgpUF8ExoiI6j7sOZcxf
 
 Unzips to:  /COVID-19_Radiography_Dataset/{i}/masks
             /COVID-19_Radiography_Dataset/{i}/images
