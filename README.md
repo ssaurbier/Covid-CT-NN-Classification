@@ -1,11 +1,14 @@
 # Covid-CT-NN-Classification
+## Problem
 Classifying and predicting covid with public imaging datasets 
 
+## Problem Statement
 Can we accurately classify an open-source set of ~20_000 CT scans across 4 labels? If so, can we classify more accurately than a radiologist? What can machine classification contribute to the field of radiology, and do open datasets enhance this exercise?
 
+## Executive Summary
 We approached this problem with an iterative nn modeling approach, beginning with a simple keras tf model, adding transfer learning, and finally including augmentations built into PyTorch. 
 
-Data:
+## Data:
 
 [COVID-19_Radiography_Dataset.zip][
 
@@ -14,7 +17,7 @@ Unzips to:  /COVID-19_Radiography_Dataset/{i}/masks
             
 Where {i} = [normal, covid, lung_opacity, viral_pneumonia]. Masks are removed to prevent data leakage. 
 
-Model performance:
+## Model performance:
 
 ![plot](./images/BaseModelAcc.png)
 ![plot](./images/XceptionAcc.png)
